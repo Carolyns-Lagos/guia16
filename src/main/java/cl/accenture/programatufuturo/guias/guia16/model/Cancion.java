@@ -1,4 +1,4 @@
-package cl.accenture.programatufuturo.guias.model;
+package cl.accenture.programatufuturo.guias.guia16.model;
 
 public class Cancion {
     private int idCancion, duracion;

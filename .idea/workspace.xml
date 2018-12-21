@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0601ecce-c6ca-4fcf-ac42-6aba4f43c463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/dao/CancionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/ejercicio16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/CancionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/exceptions/SinConexionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/model/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/dao/CancionDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/ejercicio16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/ejercicio16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/model/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/model/Cancion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="781" />
+          <entry key="java" value="1132" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="781" />
+          <entry key="JAVA" value="1132" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
         </counts>
@@ -63,7 +66,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/ejercicio16.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/ejercicio16.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
@@ -71,17 +74,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/dao/CancionDAO.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/CancionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="85" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/Conexion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/model/Cancion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/exceptions/SinConexionException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/model/Cancion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
@@ -114,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Canciongfe.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Cancion.java" />
         <option value="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/dao/CancionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/CancionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/exceptions/SinConexionException.java" />
       </list>
     </option>
   </component>
@@ -168,7 +195,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guias" type="462c0819:PsiDirectoryNode" />
+              <item name="guia16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejercicio16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20-12-18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guia16" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejercicio16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20-12-18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guia16" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +222,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545402848508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545405161023" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejemplo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,7 +254,7 @@
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32967034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34850863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,13 +262,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3344426" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3344426" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -241,10 +287,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/hola.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Canciongfe.java" />
-    <entry file="file://$PROJECT_DIR$/../19-12-18/src/main/java/model/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/model/Cancion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/model/Cancion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
@@ -258,17 +301,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/ejercicio16.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/ejercicio16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/dao/CancionDAO.java">
+    <entry file="file://$PROJECT_DIR$/../19-12-18/src/main/java/model/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/CancionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="85" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/exceptions/SinConexionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/accenture/programatufuturo/guias/guia16/dao/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
